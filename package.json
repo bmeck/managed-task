@@ -1,0 +1,21 @@
+{
+  "name": "managed-task",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "dependencies": {
+    "babel-runtime": "^6.3.19"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.3.17"
+  },
+  "scripts": {
+    "compile": "babel --optional runtime --source-maps --out-dir out lib",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "optionalDependencies": {
+    "proper-lockfile": "^1.0.2",
+    "source-map-support": "^0.4.0"
+  }
+}
